@@ -8,10 +8,4 @@ author: Jimmy
 categories: jim, john
 image: /img/portfolio/3.jpg
 ---
-{{ page.tags }}
-
-{{ page.id }}
-
-{{ page.published_at }}
-
-{{ page.title }}
+Test
