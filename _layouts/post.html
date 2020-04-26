@@ -1,28 +1,24 @@
-
-{% include head.html %} 
+{% include head.html %}
 {% include nav.html %}
 {% include scripts.html %}
 
-<section class="bg-dark">
-	<div class="container">
+<section class="section-post text-center" id="gradient">
 
-<h1> {{ page.title }} </h1>
-<h6> Published: {{ page.date | date: "%A %b %d, %Y" }} </h6>
-<h6> By: {{ page.author }}  </h6>
-<h6> Tags: {{ page.tags }}</h6>
-<h6> Category: <span class="badge"> {{ page.category }} </span> </h6>
-</div>
+	<div class="container">
+		<h1> {{ page.title }} </h1>
+		<h6> Published: {{ page.date | date: "%A %b %d, %Y" }} </h6>
+		<h6> By: {{ page.author }}  </h6>
+		<h6> Tags: {{ page.tags }}</h6>
+		<h6> Category: <span class="badge"> {{ page.categories }} </span> </h6>
+	</div>
 
 </section>
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-6" style="padding: 50px 0;">
-			<div class="container">
-				
-				{{ content }}
-
-			</div>
+		<div class="col-md-6 mt-4">
+			<img src="{{ page.image }}">
+			{{ content }}
 		</div>
 	</div>
 </div>

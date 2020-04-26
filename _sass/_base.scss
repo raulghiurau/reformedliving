@@ -44,6 +44,7 @@ p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
+
 }
 
 .bg-primary {
@@ -63,12 +64,27 @@ section {
     padding: 100px 0;
 }
 
+.section-post {
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gradient {
+background-image:
+linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+url("/img/portfolio/5.jpg");
+width: 100%;
+height: 350px;
+background-size: cover;
+}
+
 .heading {
     padding: 20px ;
     text-align: center;
     margin-top: 40px;
-    background-image: url("img/portfolio/1.jpg");
-
+    background-color: #363636;
+    color: white;
 }
 
 .footer {
