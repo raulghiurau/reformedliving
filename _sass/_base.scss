@@ -88,7 +88,7 @@ background-size: cover;
 }
 
 .footer {
-    background-color: #363636;
+    background-color: #191919;
     color: #fff;
 }
 
@@ -262,9 +262,9 @@ header {
     margin: 0 auto;
     .portfolio-box-caption {
         color: white;
-        opacity: 0;
+        opacity: 1;
         display: block;
-        background: rgba( $theme-primary, .9 );
+        background-image: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.9));
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -273,9 +273,9 @@ header {
         @include transition-all;
         .portfolio-box-caption-content {
             width: 100%;
-            text-align: center;
+            text-align: left;
             position: absolute;
-            top: 50%;
+            top: 80%;
             transform: translateY(-50%);
             .project-category,
             .project-name {
@@ -285,7 +285,7 @@ header {
             .project-category {
                 text-transform: uppercase;
                 font-weight: 600;
-                font-size: 14px;
+                font-size: 34px;
             }
             .project-name {
                 font-size: 18px;
@@ -301,7 +301,7 @@ header {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
                 .project-category {
-                    font-size: 16px;
+                    font-size: 26px;
                 }
                 .project-name {
                     font-size: 22px;
