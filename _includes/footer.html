@@ -1,37 +1,42 @@
 <section class="footer">
-    <div class="container">
-        <div class="row mb-5">
-            <div class="col-md-12 text-center">
-                <h3 class="section-heading">Stay in touch</h3>
-                <hr class="primary" >
-                <p>Never miss our content. Sign up to get an email when we publish new content.</p>
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-12 text-center">
+        <h3 class="section-heading">Stay in touch</h3>
+        <hr class="primary" >
+        <p>Sign up to get emails when new content is published.</p>
 
-<!-- insert mailchimp email sign up here -->
+        <!-- insert mailchimp email sign up here -->
 
-            </div>
-        </div>
-            <div class="row text-center">
-            <div class="col-sm-6">
-                <ul class="list-unstyled">
-                    <li class="mb-4">
-                        About
-                    </li>
-                    <li class="mb-4">
-                        Blog
-                    </li>
-                </ul>
-            </div>
-              <div class="col-sm-6">
-                <ul class="list-unstyled">
-                    <li class="mb-4">
-                        Portfolio
-                    </li>
-                    <li class="mb-4">
-                        Blog
-                    </li>
-                </ul>
-            </div>
-        </div>
-
+      </div>
     </div>
+    <div class="row text-center">
+      <div class="col-sm-6">
+        <ul class="list-unstyled">
+          <li class="mb-4">
+            About
+          </li>
+          <li class="mb-4">
+            Blog
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <ul class="list-unstyled">
+          <li class="mb-4">
+            Portfolio
+          </li>
+          <li class="mb-4">
+            Blog
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <div class="row mt-5">
+      <div class="col-sm-12 text-center">
+          <p style="font-size: 12px;">© {{ article.published_at | date: %Y }} Reformed Living. All rights reserved.</p>
+      </div>
+  </div>
 </section>
