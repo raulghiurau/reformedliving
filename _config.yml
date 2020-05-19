@@ -10,12 +10,3 @@ github_username:
 
 # Build settings
 markdown: kramdown
-
-collections:
-  - faith
-  - tech
-  - family
-  - music
-  - travels
-  - topics
-  output: true
