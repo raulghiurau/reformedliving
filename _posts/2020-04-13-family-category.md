@@ -1,10 +1,12 @@
 ---
 layout: post
-title: How we do it
+title: Family Category
 date: 2020-04-13
 excerpt: Welcome to the Jungle
-tags: new, work
+tags: familytag
 author: Jimmy
-categories: jim, john
+categories: family
 image: /img/portfolio/3.jpg
 ---
+
+## Tell me more

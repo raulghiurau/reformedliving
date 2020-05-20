@@ -1,11 +1,11 @@
 ---
 layout: post
-title: What we do
+title: Random category post
 date: 2020-03-23
-excerpt: This is a first
-tags: new
+excerpt: post about a random category
+tags: randomtags
 author: Jimmy
-categories: news
+categories: random
 image: /img/portfolio/2.jpg
 ---
 

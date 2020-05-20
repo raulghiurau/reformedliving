@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Why we do it
+title: Travel Category post
 date: 2020-02-12
 excerpt: This is a first
-tags: new, work
+tags: traveltag
 author: Jimmy
+categories: travels
 image: /img/portfolio/5.jpg
 ---
