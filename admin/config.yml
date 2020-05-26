@@ -1,0 +1,30 @@
+# config.yml
+backend:
+  name: github
+  repo: raulghiurau/reformedliving # Path to your GitHub repository
+
+# This line should *not* be indented
+publish_mode: editorial_workflow
+
+media_folder: "img/assets"
+public-folder: "uploads"
+
+collections:
+  - name: 'blog'
+    label: 'Professional, Travel'
+    folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+      - { lable: 'Author', name: 'author', widget: 'string' }
+      - { lable: 'Duration', name: 'duration', widget: 'string' }
+      - { lable: 'Category', name: 'category', widget: 'string' }
+      - { lable: 'Tags', name: 'tags', widget: 'string' }
+      - { lable: 'Image', name: 'image', widget: 'image', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
