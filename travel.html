@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Faith
+title: Travel
 ---
 
 <section>
 <div class="container">
-<p>Posts in category "faith" are:</p>
+<p>Posts in category "travel" are:</p>
 
 <ul>
-  {% for post in site.categories.faith %}
+  {% for post in site.categories.travel %}
     {% if post.url %}
     <img class="media-object"  src="{{ post.image | prepend: site.baseurl }}" style="max-width: 150px;">
-      <a href="{{ post.url }}">{{ post.title }}</a>
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endif %}
   {% endfor %}
 </ul>
