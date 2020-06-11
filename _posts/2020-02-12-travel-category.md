@@ -8,5 +8,3 @@ author: Jimmy
 categories: travel
 image: /img/portfolio/5.jpg
 ---
-
-Alaska
