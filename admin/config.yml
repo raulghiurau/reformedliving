@@ -11,7 +11,7 @@ public-folder: "uploads"
 
 collections:
   - name: 'blog'
-    label: 'Faith'
+    label: 'Topics'
     folder: '_posts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -28,23 +28,3 @@ collections:
       - { lable: 'Tags', name: 'tags', widget: 'string' }
       - { lable: 'Image', name: 'image', widget: 'image', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-
-collections:
-    - name: 'blog'
-      label: 'Travel'
-      folder: '_posts/'
-      create: true
-      slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-      editor:
-        preview: false
-      fields:
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-        - { label: 'Title', name: 'title', widget: 'string' }
-        - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-        - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
-        - { lable: 'Author', name: 'author', widget: 'string' }
-        - { lable: 'Duration', name: 'duration', widget: 'string' }
-        - { lable: 'Category', name: 'category', widget: 'string' }
-        - { lable: 'Tags', name: 'tags', widget: 'string' }
-        - { lable: 'Image', name: 'image', widget: 'image', required: false }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
