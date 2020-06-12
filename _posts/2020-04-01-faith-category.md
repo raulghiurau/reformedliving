@@ -2,7 +2,7 @@
 layout: post
 title: Faith Category post
 date: 2020-02-12
-excerpt: This is a post about faith category
+excerpt: Faith is believing that Jesus Christ is Lord
 tags: faithtag
 author: raul
 categories: faith
