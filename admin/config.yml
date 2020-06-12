@@ -11,7 +11,7 @@ public-folder: "uploads"
 
 collections:
   - name: 'blog'
-    label: 'Topics'
+    label: 'ReformedLiving'
     folder: '_posts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -25,6 +25,8 @@ collections:
       - { lable: 'Author', name: 'author', widget: 'string' }
       - { lable: 'Duration', name: 'duration', widget: 'string' }
       - { lable: 'Category', name: 'category', widget: 'string' }
+      - { label: 'Category, name: 'category', widget: 'select', default: 'general,' options: 'faith, family, travel' } 
+
       - { lable: 'Tags', name: 'tags', widget: 'string' }
       - { lable: 'Image', name: 'image', widget: 'image', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
