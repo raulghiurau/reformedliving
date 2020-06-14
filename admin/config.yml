@@ -24,8 +24,8 @@ collections:
       - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
       - { lable: 'Author', name: 'author', widget: 'string' }
       - { lable: 'Duration', name: 'duration', widget: 'string' }
-      # - { lable: 'Category', name: 'category', widget: 'string' }
-      - { label: 'Category, name: 'category', widget: 'select', default: 'general,' options: 'faith, family, travel' }
+      - { lable: 'Category', name: 'category', widget: 'string' }
+      # - { label: 'Category, name: 'category', widget: 'select', default: 'general,' options: 'faith, family, travel' }
 
       - { lable: 'Tags', name: 'tags', widget: 'string' }
       - { lable: 'Image', name: 'image', widget: 'image', required: false }
