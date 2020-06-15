@@ -2,26 +2,26 @@
 {% include nav.html %}
 {% include scripts.html %}
 
-<div class="section-post">
+<div class="section-post ">
 <div id="fade">
-	<div class="container">
+	<div class="container text-center">
+		<h6> PUBLISHED: {{ page.date | date: "%A %b %d, %Y" }} </h6>
 		<h1> {{ page.title }} </h1>
-		<h6> Published: {{ page.date | date: "%A %b %d, %Y" }} </h6>
-		<h6> By: {{ page.author }} </h6>
-		<h6> Tags: {{ page.tags }} </h6>
-		<h6> Category: <span class="badge"> {{ page.categories }} </span> </h6>
+		<h4 class="mb-4"> {{ page.excerpt }} </h4>
+			<h6> BY: {{ page.author }} </h6>
+			<h6> TAGS: {{ page.tags }} </h6>
+			<h6> CATEGORY: {{ page.categories }} </h6>
+			<h6> DURATION: {{ page.duration }} min </h6>
 	</div>
 </div>
 </div>
 
-<section>
+
 <div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<img src="{{ page.image }}" class="img-fluid">
+		<div class="col-md-12 content">
+
 				{{ content }}
+
 		</div>
-	</div>
 </div>
-</section>
 {% include footer.html %}

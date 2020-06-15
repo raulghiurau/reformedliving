@@ -11,7 +11,7 @@ public-folder: "uploads"
 
 collections:
   - name: 'blog'
-    label: 'ReformedLiving'
+    label: 'Post in Reformed Living'
     folder: '_posts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'

@@ -7,5 +7,6 @@ author: Miriam
 duration: "2"
 category: faith
 tags: Faith
+image: /img/assets/lighthouse.jpg
 ---
 This is the beginning post
