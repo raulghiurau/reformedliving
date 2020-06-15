@@ -2,26 +2,37 @@
 {% include nav.html %}
 {% include scripts.html %}
 
-<div class="section-post ">
+<div class="section-post">
 <div id="fade">
 	<div class="container text-center">
-		<h6> PUBLISHED: {{ page.date | date: "%A %b %d, %Y" }} </h6>
-		<h1> {{ page.title }} </h1>
+		<h1 class="text-warning"> {{ page.title }} </h1>
 		<h4 class="mb-4"> {{ page.excerpt }} </h4>
-			<h6> BY: {{ page.author }} </h6>
-			<h6> TAGS: {{ page.tags }} </h6>
-			<h6> CATEGORY: {{ page.categories }} </h6>
-			<h6> DURATION: {{ page.duration }} min </h6>
 	</div>
 </div>
 </div>
 
 
 <div class="container">
-		<div class="col-md-12 content">
+	<div class="col-md-12 mt-3 text-center">
+		<div class="row">
+			<div class="col-sm-6">
+				<h6 class="text-muted"> <i class="fas fa-calendar-week"></i> {{ page.date | date: "%B %d, %Y" }} </h6>
+				<h6> <i class="fas fa-user"></i> AUTHOR: {{ page.author }} </h6>
+				<!-- <h6> TAGS: {{ page.tags }} </h6> -->
+			</div>
+			<div class="col-sm-6">
+				<h6> <i class="fas fa-list"></i> CATEGORY:  {{ page.categories }} </h6>
+				<h6> <i class="far fa-clock"></i> DURATION: {{ page.duration }} min </h6>
+			</div>
+		</div>
+		<hr>
+		</div>
+		<div class="content">
 
-				{{ content }}
+			{{ content }}
 
 		</div>
+
+	</div>
 </div>
 {% include footer.html %}
