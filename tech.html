@@ -5,17 +5,22 @@ permalink: tech
 description: this is the technology
 ---
 
-<section>
-<div class="container">
-<p>Posts in category "tech" are:</p>
-
-<ul>
-  {% for post in site.categories.tech %}
+<div class="container mt-4 mb-4">
+  <h3>Technology</h3>
+  <div class="row">
+    {% for post in site.categories.tech %}
     {% if post.url %}
-    <img class="media-object"  src="{{ post.image | prepend: site.baseurl }}" style="max-width: 150px;">
-      <a href="{{ post.url }}">{{ post.title }}</a>
+    <div class="col-md-4">
+      <div class="card mb-2">
+        <a href="{{post.url}}"><img src="{{ post.image | prepend: site.baseurl }}" href="{{post.url}}" class="card-img-top" alt="check"></a>
+        <div class="card-body">
+          <h4 class="card-title">{{ post.title }}</h4>
+          <h5 class="card-text">{{post.excerpt | truncate: 80 }}</h5>
+          <a href="{{ post.url }}" style="text-align: right;">Read More</a>
+        </div>
+      </div>
+    </div>
     {% endif %}
-  {% endfor %}
-</ul>
+    {% endfor %}
+  </div>
 </div>
-<section>
