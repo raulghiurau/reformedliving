@@ -4,8 +4,7 @@ title: Resources
 description: quick reference
 ---
 
-  <section>
-  	<div class="container">
+  	<div class="container mt-4 mb-4">
       <div class="row">
         <div class="col-md-8">
           {% for category in site.categories %}
@@ -15,7 +14,7 @@ description: quick reference
               {% for post in pages_list %}
                 {% if post.title != null %}
                 {% if group == null or group == post.group %}
-              <a href="{{ site.url }}{{ post.url }}">{{ post.title }} <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a><br>
+              <a href="{{ site.url }}{{ post.url }}">{{ post.title }} <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">- {{ post.date | date: "%B %d, %Y" }}</time></a><br>
                 {% endif %}
                 {% endif %}
               {% endfor %}
@@ -42,4 +41,3 @@ description: quick reference
   </div>
   </div>
 </div>
-  </section>

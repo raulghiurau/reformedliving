@@ -3,35 +3,46 @@
 {% include scripts.html %}
 
 <div class="section-post">
-<div id="fade">
-	<div class="container text-center">
-		<h2 class="text-warning"> {{ page.title }} </h2>
-		<h4 class="mb-4"> {{ page.excerpt }} </h4>
+	<div id="fade">
+		<div class="container text-center">
+			<i class="fas fa-cross"></i>
+			<hr class="light">
+			<h5 class="m-4"> {{ page.excerpt }} </h5>
+		</div>
 	</div>
 </div>
-</div>
-
 
 <div class="container">
-	<div class="col-md-12 mt-3 text-center">
-		<div class="row">
-			<div class="col-sm-6">
+<div class="row mt-4 ml-0 mr-0">
+			<div class="col-6 p-0">
 				<h6 class="text-muted"> <i class="fas fa-calendar-week"></i> {{ page.date | date: "%B %d, %Y" }} </h6>
-				<h6> <i class="fas fa-user"></i> AUTHOR: {{ page.author }} </h6>
-				<!-- <h6> TAGS: {{ page.tags }} </h6> -->
+				<!-- <h6> <i class="fas fa-user"></i> AUTHOR: {{ page.author }} </h6> -->
+				<h6> <i class="fas fa-tag"></i> TAGS: {{ page.tags }} </h6>
 			</div>
-			<div class="col-sm-6">
+			<div class="col-6 p-0" style="text-align: right;">
 				<h6> <i class="fas fa-list"></i> CATEGORY:  {{ page.categories }} </h6>
 				<h6> <i class="far fa-clock"></i> DURATION: {{ page.duration }} min </h6>
 			</div>
-		</div>
-		<hr>
-		</div>
-		<div class="content">
 
-			{{ content }}
+</div>
+<h1 class="text-center mt-4 mb-4"> {{ page.title }} </h1>
+	<hr>
 
-		</div>
+	<div class="content">
+		{{ content }}
+	</div>
+
+	<div class="PageNavigation mb-4">
+			<div class="col-md p-0">
+				{% if page.previous.url %}
+				<a class="prev" href="{{page.previous.url}}"><i class="far fa-caret-square-left"></i> {{page.previous.title}}</a>
+				{% endif %}
+			</div>
+			<div class="col-md p-0">
+				{% if page.next.url %}
+				<a class="next" style="text-align: right;" href="{{page.next.url}}">{{page.next.title}} <i class="far fa-caret-square-right"></i></a>
+				{% endif %}
+			</div>
 
 	</div>
 </div>

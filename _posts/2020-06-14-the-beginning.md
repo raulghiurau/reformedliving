@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "The Beginning"
-date: 2020-06-14T01:09:42.130Z
-excerpt: Hello world
-author: Miriam
+date: 2020-06-14
+excerpt: In the beginning, God created the heavens and the earth. - Genesis 1:1
+author: Jimbo
 duration: "2"
 category: faith
 tags: Faith
