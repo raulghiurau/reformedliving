@@ -10,7 +10,7 @@ description: At the core of our values is faith. Everything from where everythin
     {% for post in site.categories.faith %}
     {% if post.url %}
     <div class="col-md-4">
-      <div class="card shadow-sm mb-2">
+      <div class="card shadow-sm mb-4">
         <a href="{{post.url}}"><img src="{{ post.image | prepend: site.baseurl }}" href="{{post.url}}" class="card-img-top" alt="check" style="max-height: 200px;"></a>
         <div class="card-body">
           <h4 class="card-title">{{ post.title }}</h4>
