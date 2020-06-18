@@ -2,9 +2,9 @@
 backend:
   name: github
   repo: raulghiurau/reformedliving # Path to your GitHub repository
-# 
+
 # # This line should *not* be indented
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 
 media_folder: "img/assets"
 public-folder: "uploads"
