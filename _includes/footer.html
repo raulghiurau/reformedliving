@@ -1,22 +1,11 @@
 <div class="footer">
   <div class="container">
-    <div class="row mb-5">
-      <div class="col-md-12 text-center">
-        <h3 class="section-heading">Stay in touch</h3>
-        <hr class="primary" >
-        <p>Sign up to get emails when new content is published.</p>
-      </div>
-    </div>
-
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-4 mb-4">
         <h4 class="mb-2 mt-0">Links</h4>
         <ul class="list-unstyled">
           <li class="mb-2">
             <a href="about.html">About</a>
-          </li>
-          <li class="mb-2">
-            <a href="shop.html">Shop</a>
           </li>
           <li class="mb-2">
             <a href="/topics.html">Topics</a>
@@ -24,15 +13,18 @@
           <li class="mb-2">
             <a href="/resources.html">Resources</a>
           </li>
-          <li>
+          <li class="mb-2">
             <a href="blog.html">Blog</a>
+          </li>
+          <li class="mb-2">
+            <a href="shop.html">Shop</a>
           </li>
         </ul>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-4 mb-4">
         <h4 class="mb-2 mt-0">Recent Posts</h4>
         		<ul class="list-unstyled">
-        			{% for post in site.posts | limit:3 %}
+        			{% for post in site.posts | limit:4 %}
         			<div class="media">
         				<div class="media-left mb-1">
         					<a href="{{ post.url }}">
@@ -50,14 +42,17 @@
         					{% endfor %}
         				</ul>
         			</div>
-              <div class="col-sm-2">
+              <div class="col-sm-4 mb-5">
                 <h4 class="mb-2">About</h4>
-                <p>reformed(adj) - ri-fȯrmed - <strong>changed for the better.</strong></p>
-                <p>living(adj) - 'li-viŋ - <strong> having life. </strong></p>
+                <h5>ReformedLiving was started to provide resources and answers to the basic foundation of Christian Living. </h5>
+                <p>reformed(adj) - ri-fȯrmed - <strong>changed for the better.</strong><br>living(adj) - 'li-viŋ - <strong> having life. </strong></p>
+                <h4>Connect</h4>
+                <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-youtube-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram-square fa-2x"></i></a>
               </div>
       </div>
-
-
 
   <div class="row">
     <div class="col-sm-12 text-center mt-4">
