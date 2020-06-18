@@ -5,7 +5,7 @@ date: 2020-06-18T01:45:45.242Z
 excerpt: Questioned the creation of the world? Or where we came from? Check this out 🌎
 author: Admin
 duration: "1"
-category: interesting
+category: interesting, faith
 tags: interesting, fact, fun
 image: /img/assets/39cb2379-aee3-4ce5-8819-9769ead2e652.jpeg
 ---
