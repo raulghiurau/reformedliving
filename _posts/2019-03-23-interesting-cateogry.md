@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Answers in Genesis resources
-date: 2020-03-23T00:00:00.000Z
+date: 2020-06-18T01:45:45.242Z
 excerpt: Questioned the creation of the world? Or where we came from? Check this out 🌎
 author: Admin
 duration: "1"
