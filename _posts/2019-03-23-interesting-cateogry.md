@@ -1,15 +1,16 @@
 ---
 layout: post
-title: Interesting category post
+title: Answers in Genesis resources
 date: 2020-03-23T00:00:00.000Z
-excerpt: Post about an interesting category
-author: Sashquach
-duration: "2"
-tags: interesting, fact, fun
-image: /img/portfolio/2.jpg
+excerpt: Questioned the creation of the world? Or where we came from? Check this out 🌎
+author: Admin
+duration: "1"
 category: interesting
+tags: interesting, fact, fun
+image: /img/assets/39cb2379-aee3-4ce5-8819-9769ead2e652.jpeg
 ---
+The best resource I’ve found on understanding creation. Answers in Genesis, has taken scripture to a level of understanding that I’ve never seen before. They answer many of the questions we have about the first day and how old the earth is and where did all the languages come from with a biblical foundation. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Many of their lectures and presentations are free and extremely beneficial in understanding the Gospel from Genesis. I highly suggest you support them in any way possible by purchasing their books, materials and visiting their exhibits. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The web link Is answersingenesis.com
