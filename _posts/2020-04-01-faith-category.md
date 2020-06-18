@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Faith Category post
-date: 2020-02-12
-excerpt: Faith is believing that Jesus Christ is Lord
-tags: faithtag
-author: raul
+title: Responding to a crisis
+date: 2020-06-18T02:58:20.851Z
+excerpt: What are we to say and how should we act in the midst of a crisis?
+author: Admin
+duration: "3"
+tags: faith, crisis
+image: /img/assets/f405aaa4-5c9a-41c9-a730-719f17cb993f.jpeg
 categories: faith
-image: /img/assets/faith.jpg
+category: faith
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[View video!](https://youtu.be/Z-9TxD1BF60)
