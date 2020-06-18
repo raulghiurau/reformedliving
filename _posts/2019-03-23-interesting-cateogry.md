@@ -6,7 +6,7 @@ excerpt: Questioned the creation of the world? Or where we came from? Check this
 author: Admin
 duration: "1"
 category: interesting, faith
-tags: interesting, fact, fun
+tags: interesting, fact
 image: /img/assets/39cb2379-aee3-4ce5-8819-9769ead2e652.jpeg
 ---
 The best resource I’ve found on understanding creation. Answers in Genesis, has taken scripture to a level of understanding that I’ve never seen before. They answer many of the questions we have about the first day and how old the earth is and where did all the languages come from with a biblical foundation. 
