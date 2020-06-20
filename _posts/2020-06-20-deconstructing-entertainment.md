@@ -8,5 +8,6 @@ author: Admin
 duration: "2"
 category: entertainment
 tags: Entertainment
+image: /img/assets/8d35a5a0-b928-41d6-92bc-95e0077463c6.jpeg
 ---
-Entertainment is purely for the world pleasure.
+Though temporary entertainment is purely for the world pleasure.
