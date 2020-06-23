@@ -7,7 +7,7 @@
 		<div class="container text-center">
 			<i class="fas fa-cross"></i>
 			<hr class="light">
-			<h4 class="m-4"> {{ page.excerpt }} </h4>
+			<h4 class="m-4 mx-auto" style="max-width: 600px;"> {{ page.excerpt }} </h4>
 		</div>
 	</div>
 </div>
@@ -15,7 +15,7 @@
 <div class="container">
 <div class="row mt-4 ml-0 mr-0">
 			<div class="col-6 p-0">
-				<h6 class="text-muted"> <i class="fas fa-calendar-week"></i> {{ page.date | date: "%B %d, %Y" }} </h6>
+				<h6> <i class="fas fa-calendar-week"></i> {{ page.date | date: "%B %d, %Y" }} </h6>
 				<!-- <h6> <i class="fas fa-user"></i> AUTHOR: {{ page.author }} </h6> -->
 				<h6> <i class="fas fa-tag"></i> TAGS: {{ page.tags }} </h6>
 			</div>

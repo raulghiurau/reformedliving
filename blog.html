@@ -17,10 +17,10 @@ description: Written Blogs
 				</div>
 				<div class="media-body">
 					<li>
-						<h3>
+						<h3 class="mb-0">
 							<a href="{{ post.url }}">{{ post.title }}</a></h3>
-							<p><span style="font-size: 12px;">{{ post.date | date:" %b %d, %Y" }} </span><br>
-								{{ post.excerpt | truncate: 80 }}  </p>
+							<p class="mt-0 text-muted"><span style="font-size: 12px;">{{ post.date | date:" %b %d, %Y" }} <br>
+								{{ post.excerpt | truncate: 90 }}  </span></p>
 							</li>
 						</div>
 					</div>
