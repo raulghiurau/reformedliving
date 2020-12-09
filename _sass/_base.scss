@@ -5,7 +5,8 @@ body {
 }
 
 a:hover {
-  border-color: none;
+    border-color: none;
+
 }
 
 body {
@@ -30,6 +31,7 @@ a {
     &:hover,
     &:focus {
         color: darken($theme-primary, 10%);
+        border-color: none;
     }
 }
 
