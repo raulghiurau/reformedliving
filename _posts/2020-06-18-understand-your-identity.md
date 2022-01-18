@@ -12,5 +12,3 @@ tags: faith
 image: /img/assets/field.jpg
 ---
 Know where your identity comes from.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rW--cl6RDGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -10,9 +10,8 @@ a:hover {
 }
 
 body {
-
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
+    font-family: poppins, sans-serif;
+    font-style: normal;
 }
 
 hr {
@@ -41,7 +40,7 @@ h3,
 h4,
 h5 {
 
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: poppins, sans-serif;
 
 }
 
@@ -214,7 +213,6 @@ aside {
 .navbar-default {
     background-color: white;
     border-color: rgba($theme-dark, .5);
-    @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
         color: $theme-primary;
@@ -394,7 +392,7 @@ header {
             transform: translateY(-50%);
             .project-category,
             .project-name {
-                @include sans-serif-font;
+                // @include sans-serif-font;
                 padding: 0 15px;
             }
             .project-category {
@@ -460,7 +458,9 @@ header {
 }
 
 .btn {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: poppins, sans-serif;
+font-style: normal;
+font-weight: 100;
 
     border: none;
     border-radius: 3px;
