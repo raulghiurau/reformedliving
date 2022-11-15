@@ -7,6 +7,7 @@ author: Raul
 duration: "2"
 category: faith
 tags: faith
+image: /img/assets/pexels-admiral-general-m-⭐⭐⭐⭐⭐-godshepherdly-786882.jpg
 ---
 ## W﻿hy do I keep sinning? 
 
