@@ -9,6 +9,8 @@ category: personal
 tags: Daily
 image: /img/assets/bible-4.png
 ---
-Being in the body of Christ for all my life has taught me many things from how I view life to believing what I believe.
 
-With that being said there has been any changes growth development and I have left me questioning a lot of things.
+1. Read the bible.
+2. Match what you hear to the scripture.
+3. Listen and read other interpretation.
+4. Is it getting you closer to Christ?
