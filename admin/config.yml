@@ -11,7 +11,7 @@ public-folder: "uploads"
 
 collections:
   - name: 'blog'
-    label: 'Post in Reformed Living'
+    label: 'Reformed Living'
     folder: '_posts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -24,7 +24,7 @@ collections:
       - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
       - { lable: 'Author', name: 'author', widget: 'string' }
       - { lable: 'Duration', name: 'duration', widget: 'string' }
-      - { lable: 'Category - faith, family, tech, personal, interesting, entertainment, daily walk, travel', name: 'category', widget: 'string' }
-      - { lable: 'Tags', name: 'tags', widget: 'string' }
-      - { lable: 'Image - 650x350', name: 'image', widget: 'image', required: false }
+      - { lable: 'Category faith family entertainment daily walk entertainment travel personal', name: 'category', widget: 'string' }
+      - { lable: 'Tags', name: 'tags', widget: 'string', required: false }
+      - { lable: 'Image 650 x 350', name: 'image', widget: 'image', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
