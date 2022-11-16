@@ -9,5 +9,4 @@ category: resources
 tags: reformed, teaching
 image: /img/assets/pexels-cody-king-1118667.jpg
 ---
-
-<li class="list-group-item"><a href="https://www.desiringgod.org">Desiring God - Teachings from R.C Sproul and team.</a></li>
+[Desiring God - Teachings from R.C Sproul and team.](https://www.desiringgod.org)
