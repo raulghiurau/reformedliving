@@ -26,7 +26,7 @@ collections:
       - { lable: 'Duration', name: 'duration', widget: 'string' }
       - { lable: 'Category', name: 'category', widget: 'select', options: ['finance', 'faith', 'family', 'entertainment', 'technology', 'daily walk'], default: 'faith' }
       - { lable: 'Tags', name: 'tags', widget: 'string', required: false }
-      - { lable: 'Image', name: 'image  650 x 350', widget: 'image', required: false }
+      - { lable: 'Image', name: 'image', widget: 'image', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'resources'
