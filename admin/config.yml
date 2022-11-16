@@ -12,7 +12,7 @@ public-folder: "uploads"
 collections:
   - name: 'blog'
     label: 'RL Posts'
-    folder: '_posts/'
+    folder: '_posts/blogs/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
@@ -31,7 +31,7 @@ collections:
 
   - name: 'resources'
     label: 'RL Resources'
-    folder: '_resources/'
+    folder: '_posts/resources/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
