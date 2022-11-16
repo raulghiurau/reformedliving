@@ -6,7 +6,7 @@ excerpt: The 7 steps to keep your finances in order
 author: Raul
 duration: "2"
 category: finance
-image: /img/assets/pexels-cody-king-1118667.jpg
+image: /img/assets/pexels-lukas-590041.jpg
 ---
 1. Save $1000
 2. Make a list of all your debts and pay them off smallest to largest
