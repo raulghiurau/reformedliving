@@ -1,0 +1,15 @@
+---
+layout: post
+title: Patience
+date: 2022-06-11T23:33:53.962Z
+excerpt: “with all humility and gentleness, with patience, be Caring with one
+  another in love,” ‭‬‬ Ephesians 4.2.ESV
+author: Raul
+duration: "2"
+category: resources
+tags: Patience, peace
+image: /img/assets/pexels-cody-king-1118667.jpg
+---
+
+
+Grace to you - Verse by Verse Bible teaching

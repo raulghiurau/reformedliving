@@ -11,8 +11,27 @@ public-folder: "uploads"
 
 collections:
   - name: 'blog'
-    label: 'Reformed Living'
+    label: 'Reformed Living Posts'
     folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+      - { lable: 'Author', name: 'author', widget: 'string' }
+      - { lable: 'Duration', name: 'duration', widget: 'string' }
+      - { lable: 'Category', name: 'category', widget: 'select', options: ['finance', 'faith', 'family', 'entertainment', 'technology', 'daily walk'], default: 'faith' }
+      - { lable: 'Tags', name: 'tags', widget: 'string', required: false }
+      - { lable: 'Image', name: 'image  650 x 350', widget: 'image', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'resources'
+    label: 'Reformed Living Resources'
+    folder: '_resources/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
