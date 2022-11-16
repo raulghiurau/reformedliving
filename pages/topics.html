@@ -7,6 +7,7 @@ description: Browse posts and topics
 <div class="container mt-4 mb-4">
   <div class="row">
     <div class="col-md-8">
+        <h2>Topics</h2>
       {% for category in site.categories %}
       <h4 id="{{ category[0] | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | capitalize }}</h4>
       <ul>

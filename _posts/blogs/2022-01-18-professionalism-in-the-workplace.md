@@ -8,7 +8,7 @@ excerpt: Whatever you do, work at it with all your heart, as working for the
   Colossians 3:23-24
 author: Raul
 duration: "3"
-category: daily walk
+category: dailywalk
 tags: professional, workplace, work
 image: /img/assets/pexels-lukas-653429.jpg
 ---

@@ -10,5 +10,4 @@ tags: reformed, teaching
 image: /img/assets/pexels-cody-king-1118667.jpg
 ---
 
-
 Grace to you - Verse by Verse Bible teaching

@@ -5,8 +5,8 @@ date: 2022-06-10T02:38:42.903Z
 excerpt: "Question everything, including what you believe in"
 author: Raul
 duration: "4"
-category: personal
-tags: Daily
+category: faith
+tags: faith
 image: /img/assets/bible-4.png
 ---
 
