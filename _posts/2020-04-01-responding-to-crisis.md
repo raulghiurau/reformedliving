@@ -7,7 +7,6 @@ author: Admin
 duration: "3"
 tags: faith, crisis
 image: /img/assets/f405aaa4-5c9a-41c9-a730-719f17cb993f.jpeg
-categories: faith
 category: faith
 ---
 [View video!](https://youtu.be/Z-9TxD1BF60)

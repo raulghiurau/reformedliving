@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Patience
+title: Grace To You
 date: 2022-06-11T23:33:53.962Z
-excerpt: “with all humility and gentleness, with patience, be Caring with one
-  another in love,” ‭‬‬ Ephesians 4.2.ESV
+excerpt: Pastored by John MacArthur
 author: Raul
 duration: "2"
 category: resources
-tags: Patience, peace
+tags: reformed, teaching
 image: /img/assets/pexels-cody-king-1118667.jpg
 ---
 
