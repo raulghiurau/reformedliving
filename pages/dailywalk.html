@@ -13,6 +13,7 @@ title: Daily Walk
                 <div class="card-body">
                     <h4 class="card-title">{{ post.title }}</h4>
                     <h5 class="card-text">{{post.excerpt | truncate: 80 }}</h5>
+                    <h5> {{ post.date | date: '%b %d, %Y' }}</h5>
                     <a href="{{ post.url }}" style="text-align: right;">Read More</a>
                 </div>
             </div>
