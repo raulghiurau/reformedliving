@@ -20,5 +20,3 @@ W﻿hen you accept Jesus as your lord and savior there is a transformation that 
 #### S﻿olution
 
 Y﻿ou have to remember what family you are part of. Often times when you forget and loose sight of your family thats when you tend to lean toward your born inclinations.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XD4NGfQx2dA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

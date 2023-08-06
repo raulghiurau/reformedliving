@@ -12,4 +12,4 @@ category: dailywalk
 tags: professional, workplace, work
 image: /img/assets/pexels-lukas-653429.jpg
 ---
-Professionalism is more than a suite and tie.
+
