@@ -9,8 +9,6 @@ category: faith
 tags: faith
 image: /img/assets/pray.jpg
 ---
-## W﻿hy do I keep sinning?
-
 *Romans 5:12 (ESV): 12 Therefore, just as sin came into the world through one man, and death through sin, and so death spread to all men because all sinned—*
 
 I﻿ don't understand.
