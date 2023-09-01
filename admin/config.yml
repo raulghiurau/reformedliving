@@ -23,6 +23,8 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
       - { lable: 'Author', name: 'author', widget: 'string' }
+      - { lable: 'Author-title', name: 'author-title', widget: 'string' }
+      - { lable: 'Author-image', name: 'author-image', widget: 'image', required: false }
       - { lable: 'Duration', name: 'duration', widget: 'string' }
       - { lable: 'Category', name: 'category', widget: 'select', options: ['finance', 'faith', 'family', 'entertainment', 'technology', 'daily walk'], default: 'faith' }
       - { lable: 'Tags', name: 'tags', widget: 'string', required: false }

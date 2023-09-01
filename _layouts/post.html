@@ -13,25 +13,40 @@
 </div>
 
 <div class="container">
-
 	<div class="content mx-auto" style="max-width: 600px;">
+		<div class="media mb-4 mt-2">
+
+			{% if page.author-image %}
+			<img src="{{ page.author-image }}" style="max-width: 7%; border-radius: 100%;"
+				alt="{{ page.author-title }}">
+			{% elsif page.author-img > 0 %}
+			<img src="{{ page.images[0] }}" alt="{{ page.title }}">
+			{% else %}
+			<img src="/img/icon.png" style="max-width: 7%; border-radius: 100%;" alt="Default Image">
+			{% endif %}
+
+			<div class="ml-2 media-body">
+				<h5 class="mb-0"><b>Article by: </b> {{ page.author }}</h5>
+				<h5> {{ page.author-title }}</h5>
+			</div>
+		</div>
 		{{ content }}
 	</div>
 
-	
 
 	<div class="PageNavigation mb-4">
-			<div class="col-md p-0">
-				{% if page.previous.url %}
-				<a class="prev" href="{{page.previous.url}}"><i class="far fa-caret-square-left"></i> {{page.previous.title}}</a>
-				{% endif %}
-			</div>
-			<div class="col-md p-0">
-				{% if page.next.url %}
-				<a class="next" style="text-align: right;" href="{{page.next.url}}">{{page.next.title}} <i class="far fa-caret-square-right"></i></a>
-				{% endif %}
-			</div>
-
+		<div class="col-md p-0">
+			{% if page.previous.url %}
+			<a class="prev" href="{{page.previous.url}}"><i class="far fa-caret-square-left"></i>
+				{{page.previous.title}}</a>
+			{% endif %}
+		</div>
+		<div class="col-md p-0">
+			{% if page.next.url %}
+			<a class="next" style="text-align: right;" href="{{page.next.url}}">{{page.next.title}} <i
+					class="far fa-caret-square-right"></i></a>
+			{% endif %}
+		</div>
 	</div>
 </div>
 

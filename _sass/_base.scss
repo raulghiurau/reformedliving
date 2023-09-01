@@ -10,8 +10,11 @@ a:hover {
 }
 
 body {
-    font-family: poppins, sans-serif;
+    // font-family: poppins, sans-serif;
+    // font-style: normal;
+    font-family: sofia-pro, sans-serif;
     font-style: normal;
+
 }
 
 hr {
@@ -34,15 +37,20 @@ a {
     }
 }
 
+
+h2 {
+    font-weight: 800;
+}
+
 h1,
-h2,
 h3,
 h4,
 h5 {
-    font-family: poppins, sans-serif;
+    font-family: sofia-pro, sans-serif;
+    font-style: normal;
 }
 
-h1 {
+h1 {    
   font-size: 3rem;
     @media (min-width: 768px) {
       font-size: 4rem;
@@ -50,7 +58,7 @@ h1 {
 }
 
 h2 {
-  line-height: 28px;
+  line-height: 34px;
   margin-bottom: 15px;
 }
 
@@ -181,7 +189,7 @@ input {
 }
 
 aside {
-    padding: 50px 0;
+    padding: 50px 0px 0px 0px;
 }
 
 .no-padding {
@@ -205,7 +213,6 @@ aside {
 .PageNavigation .next {
   text-align: right;
 }
-
 
 // Navigation
 
