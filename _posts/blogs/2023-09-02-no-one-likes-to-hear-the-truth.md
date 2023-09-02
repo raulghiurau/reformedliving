@@ -2,7 +2,7 @@
 layout: post
 title: No one likes to hear the truth
 date: 2023-09-02T19:14:40.085Z
-excerpt: We all want to hear lies because we can't face the truth
+excerpt: Why we all want to hear lies
 author: Todd
 author-title: Guest Contributor
 author-image: /img/assets/screenshot-2023-09-02-at-3.22.06-pm.png
