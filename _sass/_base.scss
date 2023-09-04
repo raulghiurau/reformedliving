@@ -10,11 +10,9 @@ a:hover {
 }
 
 body {
-    // font-family: poppins, sans-serif;
-    // font-style: normal;
-    font-family: sofia-pro, sans-serif;
+    font-family: articulat-cf, sans-serif;
     font-style: normal;
-
+    font-weight: 100;
 }
 
 hr {
@@ -39,14 +37,14 @@ a {
 
 
 h2 {
-    font-weight: 800;
+    font-weight: 900;
 }
 
 h1,
 h3,
 h4,
 h5 {
-    font-family: sofia-pro, sans-serif;
+    font-family: articulat-cf, sans-serif;
     font-style: normal;
 }
 
@@ -63,12 +61,14 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
-  line-height: 1.4;
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 22px;
+  line-height: 28px;
 }
 
 h5 {
@@ -219,6 +219,32 @@ aside {
 .nav-item {
   padding: 0px 10px;
 }
+
+/* Custom CSS to make the collapsed menu full screen on mobile */
+@media (max-width: 767px) {
+    .navbar-collapse {
+      position: fixed;
+      top: 60px;
+      left: -100%; /* Initially hide the menu off-screen to the left */
+      width: 100%;
+      height: 100%;
+      background-color: #fff; /* Background color for the full-screen menu */
+      transition: left 0.3s ease; /* Add a smooth transition effect */
+      z-index: 9998;
+    }
+  
+    .navbar-collapse.show {
+      left: 0; /* Show the menu by bringing it back to the left */
+    }
+  
+    .navbar-toggler {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      /* Add other styling as needed for the toggle button */
+    }
+  }
+  
 
 .navbar-default {
     background-color: white;
@@ -469,11 +495,10 @@ header {
 
 .btn {
     font-family: poppins, sans-serif;
-font-style: normal;
-font-weight: 100;
-
+    font-style: normal;
+    font-weight: 100;
     border: none;
-    border-radius: 3px;
+    border-radius: .5rem;
     font-weight: 700;
     text-transform: uppercase;
 }

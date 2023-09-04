@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row mb-2">
+        {% for post in site.posts | limit:2 %}
+        <div class="col-md-6">
+            <div
+                class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-primary-emphasis">{{ post.category }}</strong>
+                    <h3 class="mb-0">{{ post.title }}</h3>
+                    <h6 class="mb-2 mt-2 text-body-secondary">{{ post.date | date:" %b %d, %Y" }}</h6>
+                    <p class="card-text mb-auto">{{ post.excerpt }}</p>
+                    <a href="{{ post.url }}" class="icon-link gap-1 icon-link-hover stretched-link">
+                        Continue reading
+                        <svg class="bi">
+                            <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

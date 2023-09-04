@@ -1,66 +1,13 @@
 <div class="footer">
+{% include footer-add.html %}
     <div class="container">
-        <div class="row">
-            <div class="col-sm-4 mb-4">
-                <h4 class="mb-2 mt-0">Quick Links</h4>
-                <ul class="list-unstyled">
-                    <li class="mb-2">
-                        <a href="/pages/about.html">About</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="/pages/topics.html">Topics</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="/pages/resources.html">Resources</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="/blog.html">Blog</a>
-                    </li>
-                    <!-- <li class="mb-2">
-                        <a href="shop.html">Shop</a>
-                    </li> -->
-                </ul>
-            </div>
-            <div class="col-sm-4 mb-4">
-                <h4 class="mb-2 mt-0">Recent Post and Resource</h4>
-                <ul class="list-unstyled">
-                    {% for post in site.posts | limit:4 %}
-                    <div class="media">
-                        <div class="media-left mb-1">
-                            <a href="{{ post.url }}">
-                                <img class="media-object mr-1" src="{{ post.image | prepend: site.baseurl }}" style="max-width: 70px;">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <li>
-                                <h5 class="mt-0 mb-0">
-                                    <a href="{{ post.url }}">{{ post.title }}</a></h5>
-                                    <p class="mt-0"><span style="font-size: 12px;">{{ post.date | date:" %b %d, %Y" }} </span>  </p>
-                                </li>
-                            </div>
-                        </div>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-sm-4 mb-5">
-                    <h4 class="mb-2">About</h4>
-                    <a  href="/"><img src="/img/logo.png" style="max-width: 70px;" class="mb-2"></a>
-                    <h5>Reformed Living was started to provide resources and answers to the basic foundation of Christian Reformed Living. </h5>
-                    <p>reformed(adj) - ri-fȯrmed - <b>changed for the better.</b><br>living(adj) - 'li-viŋ - <b> having life. </b></p>
-
-                    <h4>Connect</h4>
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#"><i class="fab fa-twitter-square"></i></a>
-                    <a href="#"><i class="fab fa-youtube-square"></i></a>
-                    <a href="#"><i class="fab fa-instagram-square"></i></a>
-                </div>
-            </div>
-
-
-            <div class="row">
-                <div class="col-sm-12 text-center mt-4 mb-3">
-                    <h6>© {{ "now" | date: "%Y" }} Reformed Living. All rights reserved.</h6>
-                </div>
-            </div>
-        </div>
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="/blog.html" class="nav-link px-2 text-body-secondary">Blog</a></li>
+                <li class="nav-item"><a href="/pages/resources.html" class="nav-link px-2 text-body-secondary">Resource</a></li>
+                <li class="nav-item"><a href="/pages/about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© {{ 'now' | date: '%Y' }} Reformed Living </p>
+        </footer>
     </div>

@@ -14,23 +14,25 @@
 
 <div class="container">
 	<div class="content mx-auto" style="max-width: 600px;">
-		<div class="media mb-4 mt-2">
-
-			{% if page.author-image %}
-			<img src="{{ page.author-image }}" style="max-width: 7%; border-radius: 100%;"
-				alt="{{ page.author-title }}">
-			{% elsif page.author-img > 0 %}
-			<img src="{{ page.images[0] }}" alt="{{ page.title }}">
-			{% else %}
-			<img src="/img/icon.png" style="max-width: 7%; border-radius: 100%;" alt="Default Image">
-			{% endif %}
-
-			<div class="ml-2 media-body">
+		<div class="d-flex align-items-center mb-3">
+			<div class="flex-shrink-0">
+				{% if page.author-image %}
+				<img src="{{ page.author-image }}" style="max-width: 7%; border-radius: 100%;"
+					alt="{{ page.author-title }}">
+				{% elsif page.author-img > 0 %}
+				<img src="{{ page.images[0] }}" alt="{{ page.title }}">
+				{% else %}
+				<img src="/img/icon.png" style="max-width: 7%; border-radius: 100%;" alt="Default Image">
+				{% endif %}
+			</div>
+			<div class="flex-grow-1 ms-auto">
 				<h5 class="mb-0"><b>Article by: </b> {{ page.author }}</h5>
 				<h5> {{ page.author-title }}</h5>
 			</div>
 		</div>
+
 		{{ content }}
+
 	</div>
 
 
