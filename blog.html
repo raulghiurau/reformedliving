@@ -13,7 +13,7 @@ description: Written Blogs
 				<a href="{{post.url}}"><img src="{{ post.image | prepend: site.baseurl }}" href="{{post.url}}" class="card-img-top" alt="check"></a>
 				<div class="card-body">
 					<h4 class="card-title">{{ post.title }}</h4>
-					<h5 class="card-text">{{post.excerpt | truncate: 80 }}</h5>
+					<h6 class="card-text">{{post.excerpt | truncate: 80 }}</h6>
 					<a href="{{ post.url }}" style="text-align: right;">Read More</a>
 				</div>
 			</div>
