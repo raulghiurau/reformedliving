@@ -5,6 +5,7 @@ date: 2022-11-15T03:25:54.088Z
 excerpt: Romans 5:12
 author: Raul
 author-title: Contributor
+author-image: /img/assets/bible-4.png
 duration: "2"
 category: faith
 tags: faith
