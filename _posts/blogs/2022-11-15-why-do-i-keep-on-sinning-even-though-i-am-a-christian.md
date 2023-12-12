@@ -7,11 +7,12 @@ author: Raul
 duration: "2"
 category: faith
 tags: faith
+video: <iframe width="560" height="315" src="https://www.youtube.com/embed/Tz91kNJkwBU?si=oGtgakjnqG-CXt1y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 image: /img/assets/pray.jpg
 ---
 *Romans 5:12 (ESV): 12 Therefore, just as sin came into the world through one man, and death through sin, and so death spread to all men because all sinned—*
 
-I﻿ don't understand.
+I﻿ don't understand.!!!
 
 W﻿hen you accept Jesus as your lord and savior there is a transformation that happens. A renewed mind happens, where things of the old are no longer in focus. Things that you used to do are no longer on your mind.
 

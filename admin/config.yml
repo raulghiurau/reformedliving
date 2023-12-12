@@ -29,6 +29,7 @@ collections:
       - { lable: 'Category', name: 'category', widget: 'select', options: ['finance', 'faith', 'family', 'entertainment', 'technology', 'daily walk'], default: 'faith' }
       - { lable: 'Tags', name: 'tags', widget: 'string', required: false }
       - { lable: 'Image', name: 'image', widget: 'image', required: false }
+      - { lable: 'Video', name: 'video', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'resources'
