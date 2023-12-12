@@ -4,11 +4,16 @@ title: Why do I keep on sinning?
 date: 2022-11-15T03:25:54.088Z
 excerpt: Romans 5:12
 author: Raul
+author-title: Contributor
 duration: "2"
 category: faith
 tags: faith
-video: <iframe width="560" height="315" src="https://www.youtube.com/embed/Tz91kNJkwBU?si=oGtgakjnqG-CXt1y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 image: /img/assets/pray.jpg
+video: <iframe width="auto" height="315"
+  src="https://www.youtube.com/embed/Tz91kNJkwBU?si=oGtgakjnqG-CXt1y"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
 ---
 *Romans 5:12 (ESV): 12 Therefore, just as sin came into the world through one man, and death through sin, and so death spread to all men because all sinned—*
 
