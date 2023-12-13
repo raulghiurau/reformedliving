@@ -10,7 +10,3 @@ tags: faith
 image: /img/assets/field.jpg
 ---
 
-1. Read the bible.
-2. Match what you hear to the scripture.
-3. Listen and read other interpretation.
-4. Is it getting you closer to Christ?

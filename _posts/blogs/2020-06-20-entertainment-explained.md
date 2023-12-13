@@ -10,4 +10,4 @@ category: entertainment
 tags: Entertainment
 image: /img/assets/8d35a5a0-b928-41d6-92bc-95e0077463c6.jpeg
 ---
-Though temporary, entertainment is purely for the worlds pleasure. Enjoy God in everything and you will be satisfied with true joy.
+

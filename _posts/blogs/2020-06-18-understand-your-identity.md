@@ -11,4 +11,4 @@ category: faith
 tags: faith
 image: /img/assets/field.jpg
 ---
-Know where your identity comes from.
+
